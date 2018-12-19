@@ -135,6 +135,19 @@
             </div>
         </div>
     </section>
+    <section>
+    <div class="container py-5">
+        <div class="row col-md-12 py-5">
+                <div class="panel panel-primary">
+                <div class="panel-heading">Please type here in text box to get search data</div>
+                    <div class="panel-body">
+                        <autocomplete></autocomplete>
+                    </div>
+                </div>      
+        </div>
+    </div>
+
+    </section>
 </div>
 
 

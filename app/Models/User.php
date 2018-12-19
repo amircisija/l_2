@@ -7,10 +7,12 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use jeremykenedy\LaravelRoles\Traits\HasRoleAndPermission;
+use Laravel\Passport\HasApiTokens;
 
 class User extends Authenticatable
 {
     use HasRoleAndPermission;
+    use HasApiTokens;
     use Notifiable;
     use SoftDeletes;
 

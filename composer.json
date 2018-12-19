@@ -21,6 +21,7 @@
         "jeremykenedy/laravel2step": "^1.0",
         "jeremykenedy/uuid": "^3.1",
         "laravel/framework": "5.7.*",
+        "laravel/passport": "^7.0",
         "laravel/socialite": "^3.0",
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.5",

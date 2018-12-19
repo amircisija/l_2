@@ -15,6 +15,7 @@
 
 // Homepage Route
 Route::get('/', 'WelcomeController@welcome')->name('welcome');
+// Search Route
 
 // Authentication Routes
 Auth::routes();

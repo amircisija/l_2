@@ -9,6 +9,7 @@
 
 @endphp
 
+
 <div class="card">
     <div class="card-header @role('admin', true) bg-secondary text-white @endrole">
 
@@ -26,6 +27,7 @@
 
     </div>
     <div class="card-body">
+           
         <h2 class="lead">
             {{ trans('auth.loggedIn') }}
         </h2>
@@ -118,5 +120,24 @@
 
         @endrole
 
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Start typing in textbox below for suggestions!</div>
+                <div class="panel-body">
+                    <autocomplete-component></autocomplete-component>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+    
+{{--     <example-component></example-component>  --}}
+        
     </div>
 </div>
